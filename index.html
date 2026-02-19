@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jira Activity Stream</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <h3>Filters</h3>
+            <button class="filter-btn active" data-type="all">All Activity</button>
+            <button class="filter-btn" data-type="comment">Comments</button>
+            <button class="filter-btn" data-type="status">Status Changes</button>
+        </aside>
+
+        <main class="feed-container">
+            <header class="feed-header">
+                <h2>Activity Stream</h2>
+                <span id="activity-count">Showing 0 updates</span>
+            </header>
+            
+            <div id="activity-list">
+                </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
